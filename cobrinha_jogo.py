@@ -140,13 +140,13 @@ while True:
             tela.blit(texto_formt, ret_texto)
             pygame.display.update()   
         
-    if x_cobra >= largura:
+    if x_cobra > largura:
        x_cobra = 0
-    if x_cobra <= 0:
-       x_cobra = largura - 20
-    if y_cobra <= 0:
-       y_cobra = altura - 20
-    if y_cobra >= altura:
+    if x_cobra < 0:
+       x_cobra = largura
+    if y_cobra < 0:
+       y_cobra = altura
+    if y_cobra > altura:
            y_cobra = 0
     
     if len(lista_cobra) > comprimento_inicial:
