@@ -2,5 +2,4 @@
 Primeiro prototipo de jogo usando Pygame 
 
 ## Para iniciar o Jogo
-
-Apenas executar o Arquivo Principal em um editor(Vs code por exemplo)
+-Salvar a pasta com os todos os arquivos e iniciar o main file em um editor(Vs code por exemplo)
